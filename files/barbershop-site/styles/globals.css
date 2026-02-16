@@ -1,0 +1,115 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 250 250 249;
+    --foreground: 28 25 23;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-surface-50 text-surface-900 font-body antialiased;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply font-display;
+  }
+}
+
+@layer components {
+  .container-narrow {
+    @apply max-w-5xl mx-auto px-4 sm:px-6 lg:px-8;
+  }
+
+  .container-wide {
+    @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
+  }
+
+  .section-padding {
+    @apply py-16 md:py-24;
+  }
+
+  .btn {
+    @apply inline-flex items-center justify-center px-6 py-3 
+           font-medium rounded-md transition-all duration-200
+           focus:outline-none focus:ring-2 focus:ring-offset-2;
+  }
+
+  .btn-primary {
+    @apply btn bg-accent text-white hover:bg-accent-dark 
+           focus:ring-accent shadow-lg hover:shadow-xl
+           hover:-translate-y-0.5 active:translate-y-0;
+  }
+
+  .btn-secondary {
+    @apply btn bg-surface-900 text-white hover:bg-surface-800
+           focus:ring-surface-900;
+  }
+
+  .btn-outline {
+    @apply btn border-2 border-surface-900 text-surface-900
+           hover:bg-surface-900 hover:text-white
+           focus:ring-surface-900;
+  }
+
+  /* Decorative barbershop stripe pattern */
+  .barber-stripe {
+    background: repeating-linear-gradient(
+      45deg,
+      #dc2626,
+      #dc2626 10px,
+      #fff 10px,
+      #fff 20px,
+      #2563eb 20px,
+      #2563eb 30px,
+      #fff 30px,
+      #fff 40px
+    );
+  }
+
+  /* Subtle texture overlay */
+  .texture-overlay {
+    position: relative;
+  }
+
+  .texture-overlay::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 400 400' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E");
+    opacity: 0.03;
+    pointer-events: none;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+
+  .animation-delay-100 {
+    animation-delay: 100ms;
+  }
+
+  .animation-delay-200 {
+    animation-delay: 200ms;
+  }
+
+  .animation-delay-300 {
+    animation-delay: 300ms;
+  }
+
+  .animation-delay-400 {
+    animation-delay: 400ms;
+  }
+}
