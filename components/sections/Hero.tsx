@@ -46,8 +46,7 @@ export default function Hero() {
           transition={{ duration: 0.6, delay: 0.2 }}
           className="text-accent-light font-medium mb-8"
         >
-          We are still operating <strong>cash only</strong>. Please DO NOT pay
-          in advance.
+          We are operating <strong>cash only</strong> for the moment. 
         </motion.p>
 
         <motion.div

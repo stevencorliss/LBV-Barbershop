@@ -27,7 +27,7 @@ export const metadata: Metadata = {
     template: `%s | ${SHOP_INFO.name}`,
   },
   description: SEO.description,
-  keywords: SEO.keywords,
+  keywords: [...SEO.keywords],
   authors: [{ name: SHOP_INFO.name }],
   openGraph: {
     title: SEO.title,
