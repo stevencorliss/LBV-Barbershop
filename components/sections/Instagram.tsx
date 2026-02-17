@@ -50,7 +50,7 @@ export default function InstagramFeed() {
             </span>
           </a>
           <p className="text-surface-500 mt-2">
-            Tag your haircut photos <strong>#superiorimage</strong>
+            Tag your haircut photos <strong>#LaBuonaVita</strong>
           </p>
         </motion.div>
 

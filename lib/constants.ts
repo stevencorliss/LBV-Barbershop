@@ -4,18 +4,18 @@
 // ============================================
 
 export const SHOP_INFO = {
-  name: "Your Shop Name",
+  name: "LaBuonaVita Barbershop",
   tagline: "Be good to yourself, be good to your hair.",
   description:
     "Experience top-tier men's grooming with precision haircuts, expert beard trims, and classic hot towel shaves.",
   address: {
-    street: "123 Main Street",
-    city: "Your City",
+    street: "1187 Main Street",
+    city: "Wakefield",
     state: "MA",
-    zip: "02XXX",
+    zip: "01880",
   },
   phone: "(781) 555-0100",
-  email: "info@yourshop.com",
+  email: "info@labuonavitabarbershop.com",
 } as const;
 
 export const BOOKING_URL = "https://web.getsquire.com/brands/your-shop-name";
@@ -24,20 +24,20 @@ export const BUSINESS_HOURS = [
   { day: "Monday", hours: "CLOSED", isOpen: false },
   { day: "Tuesday", hours: "9am - 6pm", isOpen: true },
   { day: "Wednesday", hours: "9am - 6pm", isOpen: true },
-  { day: "Thursday", hours: "9am - 7pm", isOpen: true },
+  { day: "Thursday", hours: "9am - 6pm", isOpen: true },
   { day: "Friday", hours: "9am - 6pm", isOpen: true },
-  { day: "Saturday", hours: "8am - 4pm", isOpen: true },
+  { day: "Saturday", hours: "8am - 2pm", isOpen: true },
   { day: "Sunday", hours: "CLOSED", isOpen: false },
 ] as const;
 
 export const SOCIAL_LINKS = {
-  instagram: "https://www.instagram.com/your_shop",
+  instagram: "https://www.instagram.com/LaBuonaVitaBarbershop",
   facebook: "https://www.facebook.com/yourshop",
   yelp: "https://www.yelp.com/biz/your-shop",
 } as const;
 
 // Instagram handle for feed embed (without @)
-export const INSTAGRAM_HANDLE = "your_shop";
+export const INSTAGRAM_HANDLE = "LaBuonaVitaBarbershop";
 
 // Google Maps embed URL - get this from Google Maps > Share > Embed
 export const GOOGLE_MAPS_EMBED_URL =

@@ -1,0 +1,5 @@
+node_modules/
+.next/
+.orchids/
+bun.lock
+next-env.d.ts
