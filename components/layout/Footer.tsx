@@ -85,9 +85,17 @@ export default function Footer() {
         </div>
 
         {/* Copyright */}
-        <div className="mt-12 pt-8 border-t border-surface-800 text-center text-surface-500 text-sm">
-          © {currentYear} {SHOP_INFO.name}. All rights reserved.
-        </div>
+          <div className="mt-12 pt-8 border-t border-surface-800 text-center text-surface-500 text-sm space-y-2">
+            <div className="flex justify-center gap-6">
+              <Link href="/privacy-policy" className="hover:text-surface-300 transition-colors">
+                Privacy Policy
+              </Link>
+              <Link href="/terms-of-service" className="hover:text-surface-300 transition-colors">
+                Terms of Service
+              </Link>
+            </div>
+            <div>© {currentYear} {SHOP_INFO.name}. All rights reserved.</div>
+          </div>
       </div>
     </footer>
   );

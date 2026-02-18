@@ -4,7 +4,7 @@
 // ============================================
 
 export const SHOP_INFO = {
-  name: "LaBuonaVita Barbershop",
+  name: "La Buona Vita Barbershop",
   tagline: "Be good to yourself, be good to your hair.",
   description:
     "Experience top-tier men's grooming with precision haircuts, expert beard trims, and classic hot towel shaves.",
@@ -14,7 +14,7 @@ export const SHOP_INFO = {
     state: "MA",
     zip: "01880",
   },
-  phone: "(781) 555-0100",
+  phone: "(781) 417-8612",
   email: "info@labuonavitabarbershop.com",
 } as const;
 
@@ -41,7 +41,7 @@ export const INSTAGRAM_HANDLE = "LaBuonaVitaBarbershop";
 
 // Google Maps embed URL - get this from Google Maps > Share > Embed
 export const GOOGLE_MAPS_EMBED_URL =
-  "https://www.google.com/maps/embed?pb=!1m18!1m12...";
+  "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d23541.69467860662!2d-71.0830024652344!3d42.47641710000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89e3730ffd535de7%3A0x11a77ae93d7779fd!2s1187%20Main%20St%2C%20Wakefield%2C%20MA%2001880!5e0!3m2!1sen!2sus!4v1771385080370!5m2!1sen!2sus";
 
 // Latitude/Longitude for any map integrations
 export const SHOP_COORDINATES = {
