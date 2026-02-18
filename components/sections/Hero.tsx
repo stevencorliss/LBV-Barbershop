@@ -27,7 +27,7 @@ export default function Hero() {
           transition={{ duration: 0.6, delay: 0.1 }}
           className="text-accent-light font-semibold mb-6 drop-shadow-[0_2px_4px_rgba(0,0,0,0.9)] text-lg tracking-wide"
           >
-            We are operating <strong>cash only</strong> for the moment.
+            We are operating <strong>cash only</strong>.
         </motion.p>
 
         <motion.div
