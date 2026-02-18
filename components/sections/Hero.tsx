@@ -15,7 +15,7 @@ export default function Hero() {
           }}
         />
         {/* Gradient overlay - clear in middle/top, dark at bottom */}
-        <div className="absolute inset-0 bg-gradient-to-b from-surface-900/20 via-transparent to-surface-900/85" />
+          <div className="absolute inset-0 bg-gradient-to-b from-surface-900/20 via-transparent to-surface-900/95" />
       </div>
 
       {/* Content pinned to bottom */}
@@ -25,9 +25,9 @@ export default function Hero() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, delay: 0.1 }}
-          className="text-accent-light font-medium mb-6"
-        >
-          We are operating <strong>cash only</strong> for the moment.
+          className="text-accent-light font-semibold mb-6 drop-shadow-[0_2px_4px_rgba(0,0,0,0.9)] text-lg tracking-wide"
+          >
+            We are operating <strong>cash only</strong> for the moment.
         </motion.p>
 
         <motion.div

@@ -5,7 +5,7 @@
 
 export const SHOP_INFO = {
   name: "La Buona Vita Barbershop",
-  tagline: "Be good to yourself, be good to your hair.",
+  tagline: "More Than A Cut - It's La Vita",
   description:
     "Experience top-tier men's grooming with precision haircuts, expert beard trims, and classic hot towel shaves.",
   address: {
