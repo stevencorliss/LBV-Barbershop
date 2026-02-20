@@ -3,7 +3,7 @@
 import { useState } from "react";
 import Link from "next/link";
 import { Menu, X } from "lucide-react";
-import { SHOP_INFO, BOOKING_URL } from "@/lib/constants";
+import { SHOP_INFO } from "@/lib/constants";
 import { cn } from "@/lib/utils";
 
 const navLinks = [
@@ -38,14 +38,9 @@ export default function Header() {
                 {link.label}
               </Link>
             ))}
-            <a
-              href={BOOKING_URL}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="btn-primary text-sm"
-            >
-              Book Now
-            </a>
+              <Link href="/booking" className="btn-primary text-sm">
+                Book Now
+              </Link>
           </nav>
 
           {/* Mobile Menu Button */}
@@ -76,14 +71,13 @@ export default function Header() {
                 {link.label}
               </Link>
             ))}
-            <a
-              href={BOOKING_URL}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="btn-primary mx-4 mt-2 text-center"
-            >
-              Book Now
-            </a>
+              <Link
+                href="/booking"
+                onClick={() => setIsMenuOpen(false)}
+                className="btn-primary mx-4 mt-2 text-center"
+              >
+                Book Now
+              </Link>
           </nav>
         </div>
       </div>

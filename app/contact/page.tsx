@@ -1,11 +1,11 @@
 "use client";
 
 import { useState } from "react";
+import Link from "next/link";
 import { MapPin, Phone, Clock, Send } from "lucide-react";
 import {
   SHOP_INFO,
   BUSINESS_HOURS,
-  BOOKING_URL,
   GOOGLE_MAPS_EMBED_URL,
 } from "@/lib/constants";
 import { formatPhoneForLink, getDirectionsUrl, cn } from "@/lib/utils";
@@ -221,14 +221,9 @@ export default function ContactPage() {
               </div>
 
               <div className="mt-6 pt-6 border-t border-surface-200">
-                <a
-                  href={BOOKING_URL}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="btn-primary w-full text-center"
-                >
-                  Book an Appointment
-                </a>
+                  <Link href="/booking" className="btn-primary w-full text-center">
+                    Book an Appointment
+                  </Link>
               </div>
             </div>
 

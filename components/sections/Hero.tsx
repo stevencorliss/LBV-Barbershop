@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { BOOKING_URL } from "@/lib/constants";
+import Link from "next/link";
 
 export default function Hero() {
   return (
@@ -35,14 +35,9 @@ export default function Hero() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, delay: 0.2 }}
         >
-          <a
-            href={BOOKING_URL}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="btn-primary text-lg px-8 py-4"
-          >
-            Book An Appointment
-          </a>
+            <Link href="/booking" className="btn-primary text-lg px-8 py-4">
+              Book An Appointment
+            </Link>
         </motion.div>
       </div>
 

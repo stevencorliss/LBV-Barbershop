@@ -1,8 +1,9 @@
 "use client";
 
 import { motion } from "framer-motion";
+import Link from "next/link";
 import { Clock } from "lucide-react";
-import { BUSINESS_HOURS, BOOKING_URL } from "@/lib/constants";
+import { BUSINESS_HOURS } from "@/lib/constants";
 import { cn } from "@/lib/utils";
 
 export default function Hours() {
@@ -58,14 +59,9 @@ export default function Hours() {
             </ul>
 
             <div className="mt-8 text-center">
-              <a
-                href={BOOKING_URL}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="btn-primary w-full"
-              >
-                Book An Appointment
-              </a>
+                <Link href="/booking" className="btn-primary w-full">
+                  Book An Appointment
+                </Link>
             </div>
           </div>
         </motion.div>

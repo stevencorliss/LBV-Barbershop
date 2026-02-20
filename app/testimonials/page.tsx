@@ -1,6 +1,7 @@
 import { Metadata } from "next";
 import { Quote } from "lucide-react";
-import { TESTIMONIALS, BOOKING_URL } from "@/lib/constants";
+import Link from "next/link";
+import { TESTIMONIALS } from "@/lib/constants";
 
 export const metadata: Metadata = {
   title: "Testimonials",
@@ -52,14 +53,9 @@ export default function TestimonialsPage() {
           <p className="text-surface-600 mb-4">
             Ready to experience the difference?
           </p>
-          <a
-            href={BOOKING_URL}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="btn-primary"
-          >
-            Book Your Appointment
-          </a>
+            <Link href="/booking" className="btn-primary">
+              Book Your Appointment
+            </Link>
         </div>
       </div>
     </div>
