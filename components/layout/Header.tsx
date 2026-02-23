@@ -38,9 +38,12 @@ export default function Header() {
                 {link.label}
               </Link>
             ))}
-              <Link href="/booking" className="btn-primary text-sm">
-                Book Now
-              </Link>
+            <button
+              onClick={() => (window as any).Squire?.open()}
+              className="btn-primary text-sm"
+            >
+              Book Now
+            </button>
           </nav>
 
           {/* Mobile Menu Button */}
@@ -71,13 +74,15 @@ export default function Header() {
                 {link.label}
               </Link>
             ))}
-              <Link
-                href="/booking"
-                onClick={() => setIsMenuOpen(false)}
-                className="btn-primary mx-4 mt-2 text-center"
-              >
-                Book Now
-              </Link>
+            <button
+              onClick={() => {
+                setIsMenuOpen(false);
+                (window as any).Squire?.open();
+              }}
+              className="btn-primary mx-4 mt-2 text-center"
+            >
+              Book Now
+            </button>
           </nav>
         </div>
       </div>

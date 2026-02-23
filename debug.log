@@ -3,3 +3,7 @@
 2026-02-20T20:09:37.673Z [console][warn] [LaunchDarkly] Opening stream connection to https://clientstream.launchdarkly.com/eval/6436c833d00d0c1325b654a0/eyJraW5kIjoibXVsdGkiLCJwbGF0Zm9ybSI6eyJraW5kIjoicGxhdGZvcm0iLCJrZXkiOiJ3aWRnZXQifSwidXNlciI6eyJraW5kIjoidXNlciIsImtleSI6ImFub255bW91cyIsImFub255bW91cyI6dHJ1ZX19
 2026-02-20T20:09:38.327Z [console][error] [object Object]
 2026-02-20T20:09:38.478Z [console][error] [object Object]
+2026-02-23T00:53:28.239Z [console][error] Datadog Browser SDK: No storage available for session. We will not send any data.
+2026-02-23T00:53:28.285Z [console][warn] [LaunchDarkly] LaunchDarkly client initialized
+2026-02-23T00:53:28.290Z [console][warn] [LaunchDarkly] Opening stream connection to https://clientstream.launchdarkly.com/eval/6436c833d00d0c1325b654a0/eyJraW5kIjoibXVsdGkiLCJwbGF0Zm9ybSI6eyJraW5kIjoicGxhdGZvcm0iLCJrZXkiOiJ3aWRnZXQifSwidXNlciI6eyJraW5kIjoidXNlciIsImtleSI6ImFub255bW91cyIsImFub255bW91cyI6dHJ1ZX19
+2026-02-23T00:53:28.753Z [console][error] [object Object]

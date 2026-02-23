@@ -1,7 +1,6 @@
 "use client";
 
 import { motion } from "framer-motion";
-import Link from "next/link";
 
 export default function Hero() {
   return (
@@ -35,9 +34,12 @@ export default function Hero() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, delay: 0.2 }}
         >
-            <Link href="/booking" className="btn-primary text-lg px-8 py-4">
-              Book An Appointment
-            </Link>
+              <button
+                onClick={() => (window as any).Squire?.open()}
+                className="btn-primary text-lg px-8 py-4"
+              >
+                Book An Appointment
+              </button>
         </motion.div>
       </div>
 

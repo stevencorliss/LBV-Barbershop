@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Playfair_Display, Source_Sans_3 } from "next/font/google";
+import Script from "next/script";
 
 import "@/styles/globals.css";
 import { SEO, SHOP_INFO } from "@/lib/constants";
@@ -51,8 +52,28 @@ export default function RootLayout({
         <body className="min-h-screen flex flex-col">
           <Header />
           <main className="flex-1">{children}</main>
-            <Footer />
-        </body>
+              <Footer />
+          <Script
+            id="squire-widget"
+            strategy="afterInteractive"
+            dangerouslySetInnerHTML={{
+              __html: `
+                !function(e, t) {
+                  var i = e.createElement("script"), sa = "setAttribute";
+                  i.src = "https://widget.getsquire.com/widget.js?" + Date.now(),
+                  i[sa]("defer", ""),
+                  i[sa]("type", "text/javascript"),
+                  i[sa]("brand", t.brand),
+                  i[sa]("x-squire-inline-enabled", t.inline || false),
+                  e.head.appendChild(i)
+                }(document, {
+                  brand: "2eca291d-c7cb-4ebb-a05d-bacc2d939908",
+                  inline: false
+                });
+              `,
+            }}
+          />
+          </body>
     </html>
   );
 }
