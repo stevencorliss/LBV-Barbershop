@@ -22,7 +22,7 @@ export default function BookingPage() {
         <div
           id="squire-booking-widget"
           x-squire-inline-enabled="true"
-          data-shop-id="2eca291d-c7cb-4ebb-a05d-bacc2d939908"
+          data-shop-id="e01b5897-bd1a-4e3b-a512-ef0c66860f59"
           className="max-w-3xl mx-auto w-full"
           style={{ minHeight: "700px" }}
         />

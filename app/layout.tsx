@@ -67,7 +67,7 @@ export default function RootLayout({
                   i[sa]("x-squire-inline-enabled", t.inline || false),
                   e.head.appendChild(i)
                 }(document, {
-                  brand: "2eca291d-c7cb-4ebb-a05d-bacc2d939908",
+                  brand: "e01b5897-bd1a-4e3b-a512-ef0c66860f59",
                   inline: false
                 });
               `,
