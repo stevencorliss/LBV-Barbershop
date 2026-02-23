@@ -34,12 +34,14 @@ export default function Hero() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, delay: 0.2 }}
         >
-              <button
-                onClick={() => (window as any).Squire?.open()}
+              <a
+                href="https://getsquire.com/booking/book/la-buona-vita-barbershop-wakefield"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="btn-primary text-lg px-8 py-4"
               >
                 Book An Appointment
-              </button>
+              </a>
         </motion.div>
       </div>
 

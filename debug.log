@@ -11,3 +11,48 @@
 2026-02-23T17:31:16.103Z [console][warn] [LaunchDarkly] LaunchDarkly client initialized
 2026-02-23T17:31:16.109Z [console][warn] [LaunchDarkly] Opening stream connection to https://clientstream.launchdarkly.com/eval/6436c833d00d0c1325b654a0/eyJraW5kIjoibXVsdGkiLCJwbGF0Zm9ybSI6eyJraW5kIjoicGxhdGZvcm0iLCJrZXkiOiJ3aWRnZXQifSwidXNlciI6eyJraW5kIjoidXNlciIsImtleSI6ImFub255bW91cyIsImFub255bW91cyI6dHJ1ZX19
 2026-02-23T17:31:16.471Z [console][error] [object Object]
+2026-02-23T19:01:55.366Z [console][error] Datadog Browser SDK: No storage available for session. We will not send any data.
+2026-02-23T19:01:55.487Z [console][warn] [LaunchDarkly] LaunchDarkly client initialized
+2026-02-23T19:01:55.505Z [console][warn] [LaunchDarkly] Opening stream connection to https://clientstream.launchdarkly.com/eval/6436c833d00d0c1325b654a0/eyJraW5kIjoibXVsdGkiLCJwbGF0Zm9ybSI6eyJraW5kIjoicGxhdGZvcm0iLCJrZXkiOiJ3aWRnZXQifSwidXNlciI6eyJraW5kIjoidXNlciIsImtleSI6ImFub255bW91cyIsImFub255bW91cyI6dHJ1ZX19
+2026-02-23T19:01:56.199Z [console][warn] [LaunchDarkly] Closing stream connection
+2026-02-23T19:01:56.200Z [console][warn] [LaunchDarkly] Opening stream connection to https://clientstream.launchdarkly.com/eval/6436c833d00d0c1325b654a0/eyJraW5kIjoibXVsdGkiLCJwbGF0Zm9ybSI6eyJraW5kIjoicGxhdGZvcm0iLCJrZXkiOiJ3aWRnZXQifSwiYnJhbmQiOnsia2luZCI6ImJyYW5kIiwia2V5IjoiZTAxYjU4OTctYmQxYS00ZTNiLWE1MTItZWYwYzY2ODYwZjU5In0sInVzZXIiOnsia2luZCI6InVzZXIiLCJrZXkiOiJhbm9ueW1vdXMiLCJhbm9ueW1vdXMiOnRydWV9fQ
+2026-02-23T19:03:25.972Z [console][log] [Fast Refresh] done in 282ms
+2026-02-23T19:03:26.014Z [console][debug] __ORCHIDS_NAVIGATE__ http://localhost:3000/
+2026-02-23T19:03:26.918Z [console][log] [Fast Refresh] rebuilding
+2026-02-23T19:03:27.012Z [console][log] [Fast Refresh] done in 94ms
+2026-02-23T19:03:27.069Z [console][debug] __ORCHIDS_NAVIGATE__ http://localhost:3000/
+2026-02-23T19:03:42.929Z [console][debug] __ORCHIDS_NAVIGATE__ http://localhost:3000/
+2026-02-23T19:03:43.124Z [console][log] [Fast Refresh] rebuilding
+2026-02-23T19:03:43.257Z [console][log] [Fast Refresh] done in 134ms
+2026-02-23T19:03:43.273Z [console][debug] __ORCHIDS_NAVIGATE__ http://localhost:3000/
+2026-02-23T19:03:52.551Z [console][log] [Fast Refresh] rebuilding
+2026-02-23T19:03:52.683Z [console][log] [Fast Refresh] done in 132ms
+2026-02-23T19:03:52.845Z [console][debug] __ORCHIDS_NAVIGATE__ http://localhost:3000/
+2026-02-23T19:03:52.954Z [console][log] [Fast Refresh] rebuilding
+2026-02-23T19:03:53.033Z [console][log] [Fast Refresh] done in 79ms
+2026-02-23T19:03:53.105Z [console][debug] __ORCHIDS_NAVIGATE__ http://localhost:3000/
+2026-02-23T19:03:26.918Z [console][log] [Fast Refresh] rebuilding
+2026-02-23T19:03:27.012Z [console][log] [Fast Refresh] done in 94ms
+2026-02-23T19:03:27.069Z [console][debug] __ORCHIDS_NAVIGATE__ http://localhost:3000/
+2026-02-23T19:03:42.730Z [console][log] [Fast Refresh] rebuilding
+2026-02-23T19:03:42.899Z [console][log] [Fast Refresh] done in 169ms
+2026-02-23T19:03:42.929Z [console][debug] __ORCHIDS_NAVIGATE__ http://localhost:3000/
+2026-02-23T19:03:43.124Z [console][log] [Fast Refresh] rebuilding
+2026-02-23T19:03:43.257Z [console][log] [Fast Refresh] done in 134ms
+2026-02-23T19:03:43.273Z [console][debug] __ORCHIDS_NAVIGATE__ http://localhost:3000/
+2026-02-23T19:03:52.551Z [console][log] [Fast Refresh] rebuilding
+2026-02-23T19:03:52.683Z [console][log] [Fast Refresh] done in 132ms
+2026-02-23T19:03:52.845Z [console][debug] __ORCHIDS_NAVIGATE__ http://localhost:3000/
+2026-02-23T19:03:52.954Z [console][log] [Fast Refresh] rebuilding
+2026-02-23T19:03:53.033Z [console][log] [Fast Refresh] done in 79ms
+2026-02-23T19:03:53.105Z [console][debug] __ORCHIDS_NAVIGATE__ http://localhost:3000/
+2026-02-23T19:07:59.358Z [console][log] __ORCHIDS_NAVIGATE__ http://localhost:3000/
+2026-02-23T19:07:59.912Z [console][warn] [Fast Refresh] rebuilding
+2026-02-23T19:08:00.051Z [console][warn] [Fast Refresh] done in 139ms
+2026-02-23T19:08:00.064Z [console][log] __ORCHIDS_NAVIGATE__ http://localhost:3000/
+2026-02-23T19:07:59.130Z [console][log] [Fast Refresh] rebuilding
+2026-02-23T19:07:59.250Z [console][log] [Fast Refresh] done in 120ms
+2026-02-23T19:07:59.359Z [console][debug] __ORCHIDS_NAVIGATE__ http://localhost:3000/
+2026-02-23T19:07:59.912Z [console][log] [Fast Refresh] rebuilding
+2026-02-23T19:08:00.051Z [console][log] [Fast Refresh] done in 139ms
+2026-02-23T19:08:00.064Z [console][debug] __ORCHIDS_NAVIGATE__ http://localhost:3000/

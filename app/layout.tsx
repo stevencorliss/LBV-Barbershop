@@ -52,24 +52,31 @@ export default function RootLayout({
         <body className="min-h-screen flex flex-col">
           <Header />
           <main className="flex-1">{children}</main>
-              <Footer />
-          <Script
+            <Footer />
+            {/* Hidden Squire trigger — widget.js hooks into .squire-booking-button */}
+              <button
+                id="squire-trigger"
+                className="squire-booking-button"
+                style={{ position: "fixed", opacity: 0, pointerEvents: "none", bottom: 0, left: 0, width: 0, height: 0, overflow: "hidden" }}
+                aria-hidden="true"
+              />
+            <Script
             id="squire-widget"
             strategy="afterInteractive"
             dangerouslySetInnerHTML={{
               __html: `
-                !function(e, t) {
-                  var i = e.createElement("script"), sa = "setAttribute";
-                  i.src = "https://widget.getsquire.com/widget.js?" + Date.now(),
-                  i[sa]("defer", ""),
-                  i[sa]("type", "text/javascript"),
-                  i[sa]("brand", t.brand),
-                  i[sa]("x-squire-inline-enabled", t.inline || false),
-                  e.head.appendChild(i)
-                }(document, {
-                  brand: "e01b5897-bd1a-4e3b-a512-ef0c66860f59",
-                  inline: false
-                });
+                  !function(e, t) {
+                    var i = e.createElement("script"), sa = "setAttribute";
+                    i.src = "https://widget.getsquire.com/widget.js?" + Date.now(),
+                    i[sa]("defer", ""),
+                    i[sa]("type", "text/javascript"),
+                    i[sa]("brand", t.brand),
+                    i[sa]("x-squire-inline-enabled", t.inline || false),
+                    e.head.appendChild(i)
+                  }(document, {
+                    brand: "e01b5897-bd1a-4e3b-a512-ef0c66860f59",
+                    inline: false
+                  });
               `,
             }}
           />

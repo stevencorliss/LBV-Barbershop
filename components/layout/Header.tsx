@@ -38,12 +38,14 @@ export default function Header() {
                 {link.label}
               </Link>
             ))}
-            <button
-              onClick={() => (window as any).Squire?.open()}
-              className="btn-primary text-sm"
-            >
-              Book Now
-            </button>
+              <a
+                href="https://getsquire.com/booking/book/la-buona-vita-barbershop-wakefield"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="btn-primary text-sm"
+              >
+                Book Now
+              </a>
           </nav>
 
           {/* Mobile Menu Button */}
@@ -74,15 +76,15 @@ export default function Header() {
                 {link.label}
               </Link>
             ))}
-            <button
-              onClick={() => {
-                setIsMenuOpen(false);
-                (window as any).Squire?.open();
-              }}
-              className="btn-primary mx-4 mt-2 text-center"
-            >
-              Book Now
-            </button>
+              <a
+                href="https://getsquire.com/booking/book/la-buona-vita-barbershop-wakefield"
+                target="_blank"
+                rel="noopener noreferrer"
+                onClick={() => setIsMenuOpen(false)}
+                className="btn-primary mx-4 mt-2 text-center"
+              >
+                Book Now
+              </a>
           </nav>
         </div>
       </div>
