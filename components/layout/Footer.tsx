@@ -94,8 +94,19 @@ export default function Footer() {
                 Terms of Service
               </Link>
             </div>
-            <div>© {currentYear} {SHOP_INFO.name}. All rights reserved.</div>
-          </div>
+              <div>© {currentYear} {SHOP_INFO.name}. All rights reserved.</div>
+              <div>
+                Created & Managed by{" "}
+                <a
+                  href="https://www.cerberus-networks.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="hover:text-surface-300 transition-colors"
+                >
+                  Cerberus Networks
+                </a>
+              </div>
+            </div>
       </div>
     </footer>
   );
