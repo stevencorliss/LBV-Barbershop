@@ -3,7 +3,7 @@
 import { useState } from "react";
 import Link from "next/link";
 import { Menu, X } from "lucide-react";
-import { SHOP_INFO } from "@/lib/constants";
+import { SHOP_INFO, BOOKING_URL } from "@/lib/constants";
 import { cn } from "@/lib/utils";
 
 const navLinks = [
@@ -39,7 +39,7 @@ export default function Header() {
               </Link>
             ))}
               <a
-                href="https://getsquire.com/booking/book/la-buona-vita-barbershop-wakefield"
+                href={BOOKING_URL}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn-primary text-sm"
@@ -77,7 +77,7 @@ export default function Header() {
               </Link>
             ))}
               <a
-                href="https://getsquire.com/booking/book/la-buona-vita-barbershop-wakefield"
+                href={BOOKING_URL}
                 target="_blank"
                 rel="noopener noreferrer"
                 onClick={() => setIsMenuOpen(false)}

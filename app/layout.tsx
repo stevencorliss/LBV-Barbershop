@@ -3,7 +3,7 @@ import { Playfair_Display, Source_Sans_3 } from "next/font/google";
 import Script from "next/script";
 
 import "@/styles/globals.css";
-import { SEO, SHOP_INFO } from "@/lib/constants";
+import { SEO, SHOP_INFO, SQUIRE_BRAND_ID } from "@/lib/constants";
 import Header from "@/components/layout/Header";
 import Footer from "@/components/layout/Footer";
 
@@ -74,7 +74,7 @@ export default function RootLayout({
                     i[sa]("x-squire-inline-enabled", t.inline || false),
                     e.head.appendChild(i)
                   }(document, {
-                    brand: "e01b5897-bd1a-4e3b-a512-ef0c66860f59",
+                    brand: "${SQUIRE_BRAND_ID}",
                     inline: false
                   });
               `,

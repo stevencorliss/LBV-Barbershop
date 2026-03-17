@@ -7,7 +7,7 @@ export const SHOP_INFO = {
   name: "La Buona Vita Barbershop",
   tagline: "More Than A Cut - It's La Vita",
   description:
-    "Experience top-tier men's grooming with precision haircuts, expert beard trims, and classic hot towel shaves.",
+    "La Buona Vita Barbershop — premier men's grooming in Wakefield, MA. Precision haircuts, beard trims, and classic hot towel shaves. Book your appointment today.",
   address: {
     street: "1187 Main Street",
     city: "Wakefield",
@@ -18,7 +18,7 @@ export const SHOP_INFO = {
   email: "info@labuonavitabarbershop.com",
 } as const;
 
-export const SQUIRE_BRAND_ID = "2eca291d-c7cb-4ebb-a05d-bacc2d939908";
+export const SQUIRE_BRAND_ID = "e01b5897-bd1a-4e3b-a512-ef0c66860f59";
 export const BOOKING_URL = `https://book.getsquire.com/book/${SQUIRE_BRAND_ID}`;
 
 export const BUSINESS_HOURS = [
@@ -43,12 +43,6 @@ export const INSTAGRAM_HANDLE = "LaBuonaVitaBarbershop";
 // Google Maps embed URL - get this from Google Maps > Share > Embed
 export const GOOGLE_MAPS_EMBED_URL =
   "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d23541.69467860662!2d-71.0830024652344!3d42.47641710000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89e3730ffd535de7%3A0x11a77ae93d7779fd!2s1187%20Main%20St%2C%20Wakefield%2C%20MA%2001880!5e0!3m2!1sen!2sus!4v1771385080370!5m2!1sen!2sus";
-
-// Latitude/Longitude for any map integrations
-export const SHOP_COORDINATES = {
-  lat: 42.4584,
-  lng: -71.0598,
-} as const;
 
 // ============================================
 // TESTIMONIALS

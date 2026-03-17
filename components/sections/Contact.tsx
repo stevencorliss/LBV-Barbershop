@@ -1,16 +1,15 @@
 "use client";
 
-import Link from "next/link";
 import { motion } from "framer-motion";
-import { MapPin, Phone, Clock, Instagram, Facebook } from "lucide-react";
+import { MapPin, Phone, Instagram, Facebook } from "lucide-react";
 import {
   SHOP_INFO,
   SOCIAL_LINKS,
+  BOOKING_URL,
   GOOGLE_MAPS_EMBED_URL,
 } from "@/lib/constants";
 import {
   formatPhoneForLink,
-  getFullAddress,
   getDirectionsUrl,
 } from "@/lib/utils";
 
@@ -105,12 +104,12 @@ export default function Contact() {
               </a>
             </div>
 
-            {/* Book Button */}
-            <div className="pt-4">
-                <Link href="/booking" className="btn-primary">
+              {/* Book Button */}
+              <div className="pt-4">
+                <a href={BOOKING_URL} target="_blank" rel="noopener noreferrer" className="btn-primary">
                   Book an Appointment
-                </Link>
-            </div>
+                </a>
+              </div>
 
             {/* Cash Only Notice */}
             <p className="text-accent font-semibold">Cash Only</p>

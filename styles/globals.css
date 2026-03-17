@@ -92,6 +92,11 @@
   }
 }
 
+/* Hide SociableKit branding link */
+a.tutorial_link {
+  display: none !important;
+}
+
 @layer utilities {
   .text-balance {
     text-wrap: balance;
