@@ -19,7 +19,7 @@ export const SHOP_INFO = {
 } as const;
 
 export const SQUIRE_BRAND_ID = "2eca291d-c7cb-4ebb-a05d-bacc2d939908";
-export const BOOKING_URL = `https://book.getsquire.com/book/${SQUIRE_BRAND_ID}`;
+export const BOOKING_URL = "https://getsquire.com/booking/book/la-buona-vita-barbershop-wakefield";
 
 export const BUSINESS_HOURS = [
   { day: "Monday", hours: "CLOSED", isOpen: false },
