@@ -18,7 +18,7 @@ export const SHOP_INFO = {
   email: "info@labuonavitabarbershop.com",
 } as const;
 
-export const SQUIRE_BRAND_ID = "e01b5897-bd1a-4e3b-a512-ef0c66860f59";
+export const SQUIRE_BRAND_ID = "2eca291d-c7cb-4ebb-a05d-bacc2d939908";
 export const BOOKING_URL = `https://book.getsquire.com/book/${SQUIRE_BRAND_ID}`;
 
 export const BUSINESS_HOURS = [
